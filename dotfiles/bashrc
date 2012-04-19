@@ -3,7 +3,6 @@
 # Source the global .bashrc
 PATH_TO_GLOBAL_BASHRC="$HOME/.deezrc/dotfiles/global_bashrc"
 if [ -f $PATH_TO_GLOBAL_BASHRC ]; then
-  echo "Sourcing the global .bashrc"
   source $PATH_TO_GLOBAL_BASHRC
 else
   echo "Could not find the global .bashrc at:"
