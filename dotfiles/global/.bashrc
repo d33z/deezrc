@@ -82,12 +82,12 @@ alias xc='find . -name "*.xcodeproj" | xargs open'
 alias whatismyip='curl --silent http://automation.whatismyip.com/n09230945.asp; echo'
 
 # ------- Local Web Server -------
-export WEBDOC="/Library/WebServer/Documents"
-export WEBPUB="$WEBDOC/pub"
+WEBDOC="/Library/WebServer/Documents"
+WEBPUB="$WEBDOC/pub"
 
 pub() {
     b=$(basename $1)
-    cp "$1" "$pub/$b"
+    cp "$1" "$WEBPUB/$b"
 }
 
 # ------- Other -------
