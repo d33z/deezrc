@@ -1,7 +1,10 @@
 # Add in any user-specific setup parts here...
 
-# Source the global .bashrc
-PATH_TO_GLOBAL_BASHRC="$HOME/.deezrc/dotfiles/global_bashrc"
+
+
+# --- PULL IN GLOBAL BASHRC ---
+PATH_TO_GLOBAL_BASHRC="$HOME/.deezrc/dotfiles/global/.bashrc"
+
 if [ -f $PATH_TO_GLOBAL_BASHRC ]; then
   source $PATH_TO_GLOBAL_BASHRC
 else
@@ -9,4 +12,7 @@ else
   echo "$PATH_TO_GLOBAL_BASHRC"
 fi
 
+
+
 # Add in any user-specific overrides here...
+
