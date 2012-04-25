@@ -8,7 +8,7 @@ PATH='/usr/local/Cellar/ruby/1.9.3-p125/bin':$PATH
 
 # ------- Core Paths -------
 export SRC='/Users/mdelaney/src'
-export DROPBOX='$HOME/Dropbox'
+export DROPBOX=$HOME'/Dropbox'
 
 # ------- General Shortcuts -------
 
@@ -20,11 +20,13 @@ alias dropbox='cd $DROPBOX'
 alias src='cd $SRC'
 
 # ------- Application Shortcuts -------
+export LOCAL_APPS=$HOME'/Applications'
 
 alias xcode="open -a XCode"
+alias subl=$LOCAL_APPS'/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 
 # ------- WebKit Development -------
-export WK_SRC='$SRC/WebKit'
+export WK_SRC=$SRC'/WebKit'
 
 # Common Gotos
 alias wk="cd $WK_SRC"
