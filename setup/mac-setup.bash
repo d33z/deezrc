@@ -23,3 +23,10 @@ if [ -e ~/.inputrc ]; then
   mv ~/.inputrc ~/$MOVE_ASIDE_PATH
 fi
 ln -s $HOME/.deezrc/dotfiles/.inputrc $HOME/.inputrc
+
+echo "---Setting up Common Directors and Symlinks"
+
+mkdir -p ~/Applications
+if [ -e /Applications ]; then
+  ln -s /Applications ~/Applications/_Applications
+fi
