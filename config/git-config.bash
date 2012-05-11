@@ -10,6 +10,9 @@ echo "Setting name/email defaults."
 git config --global user.name "$PRETTY_NAME"
 git config --global user.email "$EMAIL"
 
+echo "Setting default commit message editor to TextMate."
+git config --global core.editor "mate -w"
+
 echo "Colorizing common git commands."
 git config --global color.status auto
 git config --global color.diff auto

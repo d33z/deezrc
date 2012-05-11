@@ -19,6 +19,12 @@ alias home='cd ~'
 alias dropbox='cd $DROPBOX'
 alias src='cd $SRC'
 
+# ------- Git Shortcuts -------
+alias gs="git status"
+alias c="git commit -m"
+alias ca="git commit -am"
+alias add="git add ."
+
 # ------- Application Shortcuts -------
 export LOCAL_APPS=$HOME'/Applications'
 
