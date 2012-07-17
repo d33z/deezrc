@@ -7,7 +7,7 @@ PATH=$HOME/bin:$PATH
 PATH='/usr/local/Cellar/ruby/1.9.3-p125/bin':$PATH
 
 # ------- Core Paths -------
-export SRC='/Users/mdelaney/src'
+export SRC=$HOME'/src'
 export DROPBOX=$HOME'/Dropbox'
 
 # ------- General Shortcuts -------
