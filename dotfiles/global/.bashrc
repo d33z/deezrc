@@ -4,7 +4,7 @@
 PATH='/usr/local/sbin':'/usr/local/bin':$PATH
 PATH=$HOME/bin:$PATH
 # Add ruby gem executables, TODO: clean this up, stat.
-PATH='/usr/local/Cellar/ruby/1.9.3-p125/bin':$PATH
+PATH='/usr/local/Cellar/ruby/1.9.3-p194/bin':$PATH
 
 # ------- Core Paths -------
 export SRC=$HOME'/src'
@@ -25,10 +25,8 @@ alias gc="git commit"
 alias ga="git add ."
 
 # ------- Application Shortcuts -------
-export LOCAL_APPS=$HOME'/Applications'
-
 alias xcode="open -a XCode"
-alias subl=$LOCAL_APPS'/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 
 # ------- WebKit Development -------
 export WK_SRC=$SRC'/WebKit'
